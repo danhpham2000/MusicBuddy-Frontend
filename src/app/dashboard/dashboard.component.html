@@ -1,11 +1,56 @@
-<div class="">
-  <div class="mt-20 text-center text-[30px] font-sans animate-slide-up">
-    Hello, Danh
+<div class="body-container">
+  <div class="home-container flex justify-center mt-20 bg-gray-100">
+    <section class="mood bg-white p-4 rounded-lg shadow-lg text-center">
+      <h1 class="text-3xl font-bold uppercase mb-4">Your Music Mood Today:</h1>
+      <p class="text-2xl font-semibold mb-2 mood_condition">Happy</p>
+      <p class="text-gray-700">
+        Good news! You are in a positive mood today. Keep it up and enjoy your
+        day!
+      </p>
+    </section>
   </div>
 
-  <div class="summary">
-    <div class="mood">Mood</div>
-    <div class="listen">You have listened to</div>
-    <div class="music">Here is your music to start the day</div>
+  <div
+    class="content-container mt-20 flex flex-col md:flex-row justify-around items-start mx-10"
+  >
+    <!-- Recently Played Section -->
+    <section
+      class="listen-section bg-white p-6 shadow-lg rounded-lg mb-6 md:mb-0 md:mr-4 w-full md:w-1/2"
+    >
+      <h1 class="text-2xl font-bold mb-4">You recently played</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <!-- Card 1 -->
+        <div class="card bg-gray-100 p-4 rounded-lg shadow-md">
+          <h2 class="text-lg font-semibold mb-2">Song Title 1</h2>
+          <p class="text-gray-600">Artist Name</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="card bg-gray-100 p-4 rounded-lg shadow-md">
+          <h2 class="text-lg font-semibold mb-2">Song Title 2</h2>
+          <p class="text-gray-600">Artist Name</p>
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </section>
+
+    <!-- Your Music Section -->
+    <section
+      class="music-section bg-white p-6 shadow-lg rounded-lg w-full md:w-1/2"
+    >
+      <h1 class="text-2xl font-bold mb-4">Your Music</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <!-- Card 1 -->
+        <div class="card bg-gray-100 p-4 rounded-lg shadow-md">
+          <h2 class="text-lg font-semibold mb-2">Playlist 1</h2>
+          <p class="text-gray-600">Description of Playlist</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="card bg-gray-100 p-4 rounded-lg shadow-md">
+          <h2 class="text-lg font-semibold mb-2">Playlist 2</h2>
+          <p class="text-gray-600">Description of Playlist</p>
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </section>
   </div>
 </div>

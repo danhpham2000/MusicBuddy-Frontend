@@ -1,7 +1,21 @@
 .navitems:hover {
-  background: black;
-  color: rgb(233, 223, 223);
+  color: #2ac275;
 }
 
+.navitems {
+  color: white;
+  transition: all 0.5s;
+}
 
+.navbar {
+  background: linear-gradient(to right, #2457d7, #3b125d);
+  border-bottom: #2ac275 solid;
+}
 
+.logo {
+  color: white;
+}
+
+hr {
+  border: #2ac275 solid 0.5px;
+}

@@ -6,7 +6,7 @@ export const theme = {
     navbar: "#4CC9FE",
   },
   fontFamily: {
-    sans: ["Space Mono", "sans-serif"], // Body font
+    sans: ["Josefin Sans", "sans-serif"], // Body font
     display: ["Montserrat", "sans-serif"],
   },
 };

@@ -1,1 +1,77 @@
-<p>music works!</p>
+<div class="container mx-auto my-8">
+  <!-- Music Upload Section -->
+  <div class="upload-section mb-8 p-6 bg-white shadow-lg rounded-lg">
+    <h2 class="text-2xl font-bold mb-4">Upload Your Music</h2>
+    <form>
+      <label class="block mb-2 text-sm font-medium">Select Music File:</label>
+      <input type="file" class="border p-2 mb-4 w-full" />
+      <button
+        type="submit"
+        class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+      >
+        Upload
+      </button>
+    </form>
+  </div>
+
+  <!-- Recently Uploaded Section -->
+  <div class="recently-uploaded-section mb-8">
+    <h2 class="text-2xl font-bold mb-4">Recently Uploaded Music</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-4 bg-white shadow-md rounded-lg">
+        <img
+          src="music-thumbnail.jpg"
+          alt="Music Thumbnail"
+          class="w-full h-40 object-cover mb-4"
+        />
+        <h3 class="text-xl font-semibold">Music Title</h3>
+        <p class="text-sm text-gray-600">Artist Name</p>
+        <p class="text-sm text-gray-600">Uploaded Date</p>
+        <button
+          class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+          Play
+        </button>
+      </div>
+      <div class="p-4 bg-white shadow-md rounded-lg">
+        <img
+          src="music-thumbnail.jpg"
+          alt="Music Thumbnail"
+          class="w-full h-40 object-cover mb-4"
+        />
+        <h3 class="text-xl font-semibold">Music Title</h3>
+        <p class="text-sm text-gray-600">Artist Name</p>
+        <p class="text-sm text-gray-600">Uploaded Date</p>
+        <button
+          class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+          Play
+        </button>
+      </div>
+      <!-- Repeat for more music items -->
+    </div>
+  </div>
+
+  <!-- Most Popular Section -->
+  <div class="most-popular-section">
+    <h2 class="text-2xl font-bold mb-4">Most Popular Music</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-4 bg-white shadow-md rounded-lg">
+        <img
+          src="music-thumbnail.jpg"
+          alt="Music Thumbnail"
+          class="w-full h-40 object-cover mb-4"
+        />
+        <h3 class="text-xl font-semibold">Music Title</h3>
+        <p class="text-sm text-gray-600">Artist Name</p>
+        <p class="text-sm text-gray-600">Play Count</p>
+        <button
+          class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+          Play
+        </button>
+      </div>
+      <!-- Repeat for more music items -->
+    </div>
+  </div>
+</div>
